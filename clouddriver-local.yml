@@ -4,11 +4,7 @@ kubernetes:
   - name: d-k8s-v2-1
     requiredGroupMembership: []
     providerVersion: V2
-    permissions:
-      READ:
-      - kube1
-      WRITE:
-      - kube1
+    permissions: []
     dockerRegistries: []
     context: oes-context
     configureImagePullSecrets: true
